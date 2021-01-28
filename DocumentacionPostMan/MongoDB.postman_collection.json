@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "24eacc7e-b0cd-40cd-a523-2637d0f21d96",
+		"name": "MongoDB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44359/api/trazabilidad/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"IdCliente\": 0,\r\n  \"IdUsuario\": 0,\r\n  \"Tarjeta\": 0,\r\n  \"Evento\": true,\r\n  \"IdProceso\": 1,\r\n  \"Descripcion\": \"Request ConsultarTarjetas: [{\\\"Nombre\\\":\\\"UID\\\",\\\"Valor\\\":\\\"000-111-222-333-44445\\\",\\\"Bytes\\\":null},{\\\"Nombre\\\":\\\"Tarjetas\\\",\\\"Valor\\\":\\\"[{IdUsuarioXTarjeta:16},{IdUsuarioXTarjeta:19}]\\\",\\\"Bytes\\\":null}]\",\r\n  \"UID\": \"000-111-222-333-44445\"\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/trazabilidad/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"trazabilidad",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44359/api/trazabilidad/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/trazabilidad/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"trazabilidad",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44359/api/trazabilidad/",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"id\": \"6012e72ff7562222da14a4e5\",\r\n        \"idCliente\": 0,\r\n        \"idUsuario\": 0,\r\n        \"tarjeta\": 0,\r\n        \"evento\": false,\r\n        \"idProceso\": 1,\r\n        \"descripcion\": \"Request ConsultarTarjetas: [{\\\"Nombre\\\":\\\"UID\\\",\\\"Valor\\\":\\\"000-111-222-333-44445\\\",\\\"Bytes\\\":null},{\\\"Nombre\\\":\\\"Tarjetas\\\",\\\"Valor\\\":\\\"[{IdUsuarioXTarjeta:16},{IdUsuarioXTarjeta:19}]\\\",\\\"Bytes\\\":null}]\",\r\n        \"uid\": \"000-111-222-333-44445\",\r\n        \"date\": \"2021-01-28T11:35:15.75816-05:00\"\r\n    }"
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/trazabilidad/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"trazabilidad",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44359/api/trazabilidad/",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/trazabilidad/6012e787f7562222da14a4e6",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"trazabilidad",
+						"6012e787f7562222da14a4e6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
