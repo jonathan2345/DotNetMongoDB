@@ -1,9 +1,7 @@
 ﻿using MongoDB.Driver;
 using MVCMongoDB.Models;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace MVCMongoDB.Services
 {
@@ -27,6 +25,16 @@ namespace MVCMongoDB.Services
         {
             _trazabilidad.InsertOne(trazabilidad);
             return trazabilidad;
+        }
+
+        public void Update(string id, Trazabilidad trazabilidad)
+        {
+            _trazabilidad.ReplaceOne(trazabilidad => trazabilidad.Id == id, trazabilidad);
+        }
+
+        public void Delete(string id)
+        {
+            _trazabilidad.DeleteOne(d => d.Id == id);
         }
     }
 }

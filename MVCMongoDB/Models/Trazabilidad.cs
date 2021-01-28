@@ -1,8 +1,5 @@
 ﻿using MongoDB.Bson.Serialization.Attributes;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace MVCMongoDB.Models
 {
@@ -11,11 +8,6 @@ namespace MVCMongoDB.Models
         [BsonId]
         [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
         public string Id { get; set; }
-        //[BsonElement("name")]
-        //public string Name { get; set; }
-        //[BsonElement("alcohol")]
-        //public decimal Alcohol { get; set; }
-
         [BsonElement("idcliente")]
         public int IdCliente { get; set; }
         [BsonElement("idusuario")]
@@ -32,6 +24,5 @@ namespace MVCMongoDB.Models
         public string UID { get; set; }
         [BsonElement("fecha")]
         public DateTime Date { get { return DateTime.Now; } }
-
     }
 }

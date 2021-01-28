@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jcorrea\\source\\repos\\MVCMongoDB\\MVCMongoDB\\MVCMongoDB.csproj": {}
+    "C:\\Users\\jcorrea\\Documents\\GitHub\\DotNetMongoDB\\MVCMongoDB\\MVCMongoDB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jcorrea\\source\\repos\\MVCMongoDB\\MVCMongoDB\\MVCMongoDB.csproj": {
+    "C:\\Users\\jcorrea\\Documents\\GitHub\\DotNetMongoDB\\MVCMongoDB\\MVCMongoDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jcorrea\\source\\repos\\MVCMongoDB\\MVCMongoDB\\MVCMongoDB.csproj",
+        "projectUniqueName": "C:\\Users\\jcorrea\\Documents\\GitHub\\DotNetMongoDB\\MVCMongoDB\\MVCMongoDB.csproj",
         "projectName": "MVCMongoDB",
-        "projectPath": "C:\\Users\\jcorrea\\source\\repos\\MVCMongoDB\\MVCMongoDB\\MVCMongoDB.csproj",
+        "projectPath": "C:\\Users\\jcorrea\\Documents\\GitHub\\DotNetMongoDB\\MVCMongoDB\\MVCMongoDB.csproj",
         "packagesPath": "C:\\Users\\jcorrea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jcorrea\\source\\repos\\MVCMongoDB\\MVCMongoDB\\obj\\",
+        "outputPath": "C:\\Users\\jcorrea\\Documents\\GitHub\\DotNetMongoDB\\MVCMongoDB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

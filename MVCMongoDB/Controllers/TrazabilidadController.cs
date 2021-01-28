@@ -23,11 +23,24 @@ namespace MVCMongoDB.Controllers
         }
 
         [HttpPost]
-        [Route("InsertarTraza")]
         public ActionResult<Trazabilidad> Create(Trazabilidad trazabilidad)
         {
             _logService.Create(trazabilidad);
             return Ok(trazabilidad);
+        }
+
+        [HttpPut]
+        public ActionResult<Trazabilidad> Update(Trazabilidad trazabilidad)
+        {
+            _logService.Update(trazabilidad.Id, trazabilidad);
+            return Ok();
+        }
+
+        [HttpDelete("{id}")]
+        public ActionResult<Trazabilidad> Delete(string id)
+        {
+            _logService.Delete(id);
+            return Ok();
         }
     }
 }
